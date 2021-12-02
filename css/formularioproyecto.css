@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+/*Autores: Equipo Pollo con papas*/
+
+*{
+ margin:0;
+ padding:0;
+}
+
+/*  Este apartado muestra como el primer encabezado esta estructurado, mostrando el tamaño en porcentaje, el color de fondo
+    los espaciados de arriba y abajo, una limpieza de tipo izquierdo, bordeado con tono gris y color de letras en blanco*/
+.primary_header {
+    width: 100%;
+    background-color: #CD2453;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: left;
+    border-bottom: 3px solid #878787;
+    color: aliceblue;
+	text-align: center;
+}
+
+/*  Este apartado muestra el color de fondo en blanco*/
+body {
+ background:#f1f1f1;
+}
+
+body h2 {
+	color: #01B2D1;
+}
+
+/*  Este apartado estructura el tamaño, su capacidad maxima y margenes de los elementos header, footer y el principal,
+sobre el cuál vamos a manejar todos elementos comformados para está página*/
+header, .main, footer {
+ width:90%;
+ max-width:1000px;
+ margin:20px auto;
+}
+/*  Este apartado muestra como el primer encabezado esta estructurado, determinando el color de fondo
+    asi como corrigiendo el efecto que produce el comando float;left con el comando"overflow:hidden"*/
+header nav {
+ background:#535353;
+ overflow:hidden;
+}
+
+/*  Este apartado muestra como el primer encabezado borra los puntos de la lista*/
+header nav ul {
+ list-style:none;
+}
+
+/*  Este apartado muestra como el primer encabezado acomoda los elementos en forma de lista,
+    a una secuencia horizontal para estructurar el menu*/
+header nav ul li{
+ float:left;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+/*  Este apartado muestra como los elementos del menu estructuran su tamaño y espaciado entre si mismos*/
+header nav ul li a {
+ padding:20px 20px;
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ 
+}
+
+/*  Este apartado muestra como el primer encabezado borra los puntos de la lista*/
+header nav ul li a:hover {
+ background:#666565;
+}
+
+/*  Este apartado determina la medida de los articulos, su margen y además
+    ordena los elementos en una secuencia horizontal*/
+.main .articles {
+ width:68.5%;
+ margin-right:1.5%;
+ float:left;
+}
+
+/*  Este apartado determina el espaciado, el color del fondo y los margenes inferiores
+     que tienen los articulos*/
+.main .articles article {
+ padding:20px;
+ background:#fff;
+ margin-bottom:20px;
+}
+
+/*  Este apartado determina la medida del aside,justifica el texto, ordena orizontalmente le aside
+	que además se adapta a la medida de los articulos manteniendo esa estructura vertical, le da
+	 color al fondo y un esoaciado de cuarentam ajustando las medidas por igual con box-sizing*/
+aside {
+ width:30%;
+ background:#CD2453;
+ color:#fff;
+ float:left;
+ padding:40px;
+ box-sizing:border-box;
+ text-align:justify;
+}
+
+/*  Este apartado determina las caracteristicas del footer, su color, la limpieza y estructura para mantenr esa forma
+	HORIZONTAL respetando los artuculos, con espaciado.*/
+footer {
+ background:#717070;
+ color:#fff;
+ clear:both;
+ padding:20px 10px;
+ text-align:center;
+}
+
+/*  Este apartado determina la estetica del formulario, tanto como etiquetas, texto, margenes, espaciados,
+	color de fondo, inputs, text areas, asi como tambien los de sus respectivos botones, colores, hovers y efectos
+	a la hora de hacer click en ellos*/
+.main .articles form {
+ width:90%;
+ border:1px solid #ccc;
+ margin:20px;
+ padding:20px;
+ text-align:center;
+ background: #878787}
+
+.main .articles label {
+ font-size:12px;
+ display:block;
+ width:100%;
+ text-align: center;
+}
+
+.main .articles textarea {
+ resize:vertical;
+ max-height:200px;
+ min-height:100px;
+}
+
+.main .articles input, textarea{
+ margin-bottom:20px;
+ width:100%;
+ padding:5px;
+ box-sizing:border-box;
+ box-sizing:border-box;
+ border:3px solid #ccc;
+}
+
+.main .articles input:focus, textarea:focus{
+ border:1px solid #1668C4;
+}
+
+.main .articles input[type="submit"] {
+ margin-bottom:0;
+ background:#CD2453;
+ color:#fff;
+ border:none;
+}
+
+.main .articles input[type="submit"]:hover {
+ background:#E0567C;
+ cursor:pointer;
+}
+
+.main .articles input[type="reset"] {
+ margin-bottom:0;
+ background:#CD2453;
+ color:#fff;
+ border:none;
+}
+
+.main .articles input[type="reset"]:hover {
+ background:#ccc;
+ cursor:pointer;
+}
+
+.main .articles {
+	text-align: center;
+}

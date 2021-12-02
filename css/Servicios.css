@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+/*Autores: Equipo Pollo con Papas*/
+
+/*Se pone un margen inicial de 0*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Se le da color al fondo*/
+body {
+	background: #F1F1F1;
+}
+
+/*Se le da formato al encabezado*/
+header {
+	background: #CD2453;
+	text-align: center;
+	color: #FFFFFF;
+	width: 90%;
+	max-width: 1000px;
+	padding-top: 20px;
+	margin: 20px auto;
+	}
+
+/*Se le da un color y espaciado al título del artículo*/
+body h3{
+	color: #01B2D1;
+	padding: 10px 0px;
+}
+
+/*damos un formato inicial al contenido de nuestra página*/
+.main, footer, tbody {
+	background: #f1f1f1;
+	width: 90%;
+	text-align: justify;
+	max-width: 1000px;
+	padding-top: 20px;
+	padding-left: 10px;
+	align-content: center;
+	margin: 20px auto;
+	}
+
+/*Le damos formato al menú*/
+header nav{
+	background: #535353;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow:hidden;
+}
+
+/*Quitamos el subrayado de nuestra lista para convertila en menú*/
+header nav ul{
+	list-style:none;
+}
+
+/*Apilamos la lista de forma horizontal hacia la izquierda*/
+header nav ul li{
+	float:left;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+/*convertimos nuestra lista en el menú de la página*/
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	/*Hacemos que el menú cambie de color cuando pasamos el puntero por encima*/
+	background: #666565;
+}
+
+/*acomodo de las columnas y ajuste de márgenes*/
+.main .articles {
+	float:left;
+	width:67%;
+	margin-right: 1.5%
+}
+
+/*le damos formato a nuestro contenido*/
+.main .articles article{
+	padding: 10px;
+	float: left;
+	margin-bottom: 10px;
+	background: #fff;
+}
+
+table {
+	/*Acomodo de la tabla con respecto de la página*/
+	background: #CD2453;
+	padding: 10px;
+	width: 100%;
+}
+
+tbody {
+	/*se le da el color de fondo a la tabla*/
+	background: #CD2453;
+}
+
+tbody td:hover{
+	/*Hacemos que los elementos de la tabla cambien de color cuando pasamos el puntero por encima*/
+	background: #E0567C;
+}
+
+/*formato al sidebar*/
+aside {
+	width: 30%;
+	background: #717070;
+	color: #ffffff;
+	float:left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+aside h4 {
+	text-style:bold;
+}
+
+input[type="button"] {
+ margin-bottom:0px;
+ background:#CD2453;
+ padding: 10px;
+ width: 100%;
+ color:#fff;
+ border:1px;
+}
+
+input[type="button"]:hover {
+ background:#E0567C;
+ cursor:pointer;
+}
+
+footer{
+	/*Formato al pie de página*/
+	background:#717070;
+	color:#FFFFFF;
+	clear:both;
+	padding-bottom: 20px;
+	text-align:center;
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<!--Autores: Equipo Pollo con papas-->
+
+<html>
+<head>
+<meta charset="utf-8">
+	<!-- Tenemos el título, y conexión fundamental con otro archivo CSS -->
+	<title>¡Contactanos, llamado al turismo!</title>
+
+</head>
+<body>
+	<!-- Teniendo el header de nuestra página de formularios, presentamos los encabezados, el menu de navegación
+		 y sus respectivos enlaces-->
+	<header>
+		<div class="primary_header">
+     	<h1 class="title"> ¡Vamos a Visitar Michoacán!</h1> 
+    	</div>
+	<nav>
+		<ul>
+			<li><a href="Index.html">Inicio</a></li>
+			<li><a href="Servicios.html">Servicios</a></li>
+			<li><a href="Formulario Base.html">Contáctanos</a></li>
+		</ul>
+	</nav>
+	</header>
+
+	<!-- En este apartado marcamos una sección y división de clase para poder trabajar sobre un articulo, dicho articulo contiene
+		 un formulario donde el usuario cliente podrá proporcionar la información necesaria para poder realizar un contacto a nosotros
+		 como entidad, cabe destacar que nuestro formulario no es un método de marketing invasivo para el usuario por lo que nos dará
+		 la probabilidad de conocer a nuestro publico objetivo aun más segmentado, nuestro formulario ofrece la posibilidad de mandar
+		 correos al usuario sobre alguno de los servicios por los cuáles esta interesado, y preguntar por la posible forma de pago
+		 para poder generar una orden de pago en base a dicha opción, a su ves entregar un comprobante imprimible-->
+	<section class="main">
+		<section class="articles">
+			<article>
+				<h2>Registro para más información</h2><br>
+				<form action="" class="formulario">
+					<label for="nombre"><strong>Nombre: </strong></label>
+					<input type="text" name="nombre" size="25" maxlength="50"><br><br>
+					
+					<label for="apellidos"><strong>Apellidos:</strong> </label>
+					<input type="text" name="apellidos" size="35" maxlength="50"><br><br>
+		
+					<label for="telefono"><strong>Telefono: </strong></label>
+					<input type="tel" id="tel" name="tel"><br><br>
+		
+					<label for="Email"> <strong> Email: </strong></label>
+					<input type="email" Name="email" size="50"> <br><br>
+		
+					<div class="Checks">
+					<label for="servicios"> <strong>¿Que servicios le interesan?</strong></label><br><br>
+					<input type="checkbox" name="a"> Ferias.<br><br>
+					<input type="checkbox" name="b"> Eventos Culturales.<br><br>
+					<input type="checkbox" name="c"> Eventos Religiosos.<br><br>
+					<input type="checkbox" name="d"> Conciertos<br><br>
+					<input type="checkbox" name="e"> Rutas Turisticas<br><br>
+					<input type="checkbox" name="f"> Paquete de Viaje<br><br>
+					</div>
+		
+		
+					<label for="persona"><strong>Total de personas a considerar: </strong></label>
+					<input type="number" name="age" id="age" min="1" max="10"> <br><br>
+		
+					<div class="Radio">
+					<label for="pago"> <strong>¿Como quiere pagar?</strong></label><br><br>
+					<input type="radio" name="transaccion" value="a">
+					 Tarjeta <br>
+					<input type="radio" name="transaccion" value="b"> Deposito <br>
+					<input type="radio" name="transaccion" value="c"> Pago en Oxxo <br><br>
+					</div>
+							
+					<!--botones-->
+					<input type="submit" value="Enviar">
+					<input type="Reset" value="Borrar">
+			</form>
+			</article>
+		</section>
+		
+              <!-- En este apartado contamos curiosidades que México tiene como país esto con la finalidad de generar un interes
+			  en posibles clientes del exterior del páis, permitiendo así, que quizás en una próxima planificación la página
+			  pueda abarcar servicios como una agencia de turismo nacional-->
+			<aside>
+				<h3><center>Sabías que...</center></h3><br>
+				<p>Sin duda uno de los estados de la República Mexicana con mayor riqueza cultural, histórica y gastronómica, es Michoacán. Para que conozcas un poco más acerca de él, te dejamos algunos datos curiosos. </p><br>
+
+				<p><strong>1.</strong> La palabra <strong>Michoacán</strong> proviene del náhuatl <strong>“michihuacán”</strong> que significa <em>lugar de pescadores,</em> debido a que las primeras poblaciones se construyeron alrededor de los lagos de Pátzcuaro, Zacapu, Cuitzeo y Zirahuén.</p><br>
+				
+				<p><strong>2.</strong> Su capital, cuenta con un invaluable patrimonio histórico y cultural, debido a ello, en 1991 la UNESCO la declaró como Patrimonio Cultural de la Humanidad. En Morelia se llevan a cabo numerosos festivales internacionales como el <strong>Festival Internacional de Cine de Morelia, Festival de la Gastronomía Michoacana</strong> o <strong>Morelia en Boca,</strong> por mencionar algunos.</p><br>
+				
+				<p><strong>3.</strong> Alberga tres de las migraciones de especies más importantes del país. Debido a los contrastantes paisajes con los que cuenta Michoacán, se vuelve escenario perfecto para recibir cada año a tortugas marinas, mariposas Monarca y pelícanos borregones.</p><br>
+				
+				<p><strong>4. </strong>La cocina tradicional de Michoacán es uno de los tesoros más grandes del estado, en 2010 fue denominada Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO. Mientras que, en 2012 rompió fronteras, cuando la cocinera tradicional Benedicta Alejo Vargas, viajó a Roma para cocinarle al papa Benedicto XVI.</p><br>
+				
+				<p><strong>5. </strong>Tiene una <strong>“Ruta de la Salud”</strong> compuesta por más de 400 manantiales de aguas termales, que ofrecen a los visitantes entretenimiento y reposo, en medio de bosques y montañas.</p><br>
+			</aside>
+	</section>
+
+	<!-- Este apartado marca el pie de página, con nuestro nombre de equipo y el año actual-->
+	<footer>
+		<p>©2021 - EQUIPO POLLO CON PAPAS</p>
+	</footer>
+</body>
+</html>
